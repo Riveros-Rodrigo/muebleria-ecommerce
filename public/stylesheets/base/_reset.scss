@@ -1,0 +1,19 @@
+@import '../utilities/variables';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $textos;
+}
+h1,h2,h3,h4{
+    font-family: $titulos;
+}
+a{
+    text-decoration: none;
+    font-family: $textos;
+}
+img{
+    max-width: 100%;
+}
