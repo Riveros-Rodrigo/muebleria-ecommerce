@@ -1,0 +1,35 @@
+/* Estilos categoria de productos */
+main .categorias h2{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+main .categorias article{
+    display: flex;
+    flex-direction: column;
+}
+main .categorias article a{
+    color: $negro;
+    text-align: center;
+    margin: 2rem 0rem;
+    font-size: 1.2rem;
+}
+/* Estilos sobre nosotros */
+main .nosotros{
+    background-color: $celeste;
+}
+main .nosotros h2{
+    text-align: center;
+    margin: 2rem 0rem;
+    color: $blanco;
+}
+main .nosotros p{
+    color: $blanco;
+    padding: 0rem 5rem 2rem;
+    font-size: 1rem;
+    line-height: 2;
+}
+/* Estilos nuestros productos */
+main .productos h2{
+    text-align: center;
+    margin: 2rem 0rem;
+}
