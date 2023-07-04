@@ -18,3 +18,16 @@ header h1 span{
     color: transparent;
     border: solid 2px $celeste;
 }
+/* Responsive desktop */
+@media (min-width: 992px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

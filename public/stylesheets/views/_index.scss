@@ -135,3 +135,13 @@ main .productos article div a{
         font-size: 1rem;
     }
 }
+/* Responsive desktop */
+@media (min-width: 992px){
+    main .contenedor-img-principal{
+        background-color: red;
+
+    }
+    main .contenedor-img-principal img{
+        width: 100%;
+    }
+}
