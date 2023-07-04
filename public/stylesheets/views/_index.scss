@@ -1,3 +1,4 @@
+@import '../utilities/variables';
 /* Estilos categoria de productos */
 main .categorias h2{
     text-align: center;
@@ -32,4 +33,35 @@ main .nosotros p{
 main .productos h2{
     text-align: center;
     margin: 2rem 0rem;
+    color: $negro;
+}
+main .productos article div{
+    background-color: $celeste;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 1.2rem;
+    padding: 1rem;
+}
+main .productos article div h3{
+    text-align: center;
+    padding: 1.2rem 0rem;
+    color: $blanco;
+}
+main .productos article div p{
+    text-align: center;
+    color: $blanco;
+}
+main .productos article div .precio{
+    font-size: 2rem;
+    font-weight: 900;
+}
+main .productos article div a{
+    background-color: $verde;
+    text-align: center;
+    color: $blanco;
+    padding: 1rem 0rem;
+    margin: 0rem 2rem 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 900;
 }
