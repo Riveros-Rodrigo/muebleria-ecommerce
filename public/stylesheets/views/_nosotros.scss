@@ -1,0 +1,40 @@
+@import '../utilities/variables';
+/* Estilos sobre nosotros */
+main .nosotros{
+    background-color: $celeste;
+}
+main .nosotros h2{
+    text-align: center;
+    margin: 2rem 0rem;
+    color: $blanco;
+}
+main .nosotros p{
+    color: $blanco;
+    padding: 0rem 5rem 2rem;
+    font-size: 1rem;
+    line-height: 2;
+}
+/* Responsive tablet */
+@media (min-width: 768px){
+    /* Sobre nosotros */
+    main .nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main .nosotros img{
+        height: 100%;
+    }
+    main .nosotros div h2{
+        font-size: 2.5rem;
+    }
+    }
+
+    /* Responsive desktop */
+@media (min-width: 992px){
+    /* sobre nosotros */
+    main .nosotros div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    }

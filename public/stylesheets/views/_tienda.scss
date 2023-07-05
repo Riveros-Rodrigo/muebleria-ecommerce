@@ -1,0 +1,99 @@
+/* Estilos nuestros productos */
+main .productos h2{
+    text-align: center;
+    margin: 2rem 0rem;
+    color: $negro;
+}
+main .productos article div{
+    background-color: $celeste;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 1.2rem;
+    padding: 1rem;
+}
+main .productos article div h3{
+    text-align: center;
+    padding: 1.2rem 0rem;
+    color: $blanco;
+}
+main .productos article div p{
+    text-align: center;
+    color: $blanco;
+}
+main .productos article div .precio{
+    font-size: 2rem;
+    font-weight: 900;
+}
+main .productos article div a{
+    background-color: $verde;
+    text-align: center;
+    color: $blanco;
+    padding: 1rem 0rem;
+    margin: 0rem 2rem 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 900;
+}
+/* Responsive tablet */
+@media (min-width: 768px){
+    /* Nuestros productos */
+    main .productos .contenedor-productos-grid{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 2rem;
+    }
+    main .productos .contenedor-productos-grid article:nth-child(1){
+        grid-column-start: 1;
+        grid-column-end: 7;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    main .productos .contenedor-productos-grid article .producto1{
+        display: flex;
+        justify-content: center;
+    }
+    main .productos .contenedor-productos-grid article:nth-child(2){
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    main .productos .contenedor-productos-grid article:nth-child(3){
+        grid-column-start: 4;
+        grid-column-end: 7;
+    }
+    main .productos .contenedor-productos-grid article:nth-child(2) img,
+    main .productos .contenedor-productos-grid article:nth-child(3) img{
+        height: 30rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    main .productos .contenedor-productos-grid article:nth-child(4){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    main .productos .contenedor-productos-grid article:nth-child(5){
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    main .productos .contenedor-productos-grid article:nth-child(6){
+        grid-column-start: 5;
+        grid-column-end: 7;
+    }
+    main .productos .contenedor-productos-grid article .img1{
+        height: 100%;
+        width: 100%;
+    }
+    main .productos .contenedor-productos-grid article div{
+        margin: 0;
+    }
+    main .productos article div .precio{
+        font-size: 1rem;
+    }
+}
+/* Responsive desktop */
+@media (min-width: 992px){
+    /* Nuestros productos */
+    main .productos{
+        width: 70%;
+        margin: auto;
+    }
+}
