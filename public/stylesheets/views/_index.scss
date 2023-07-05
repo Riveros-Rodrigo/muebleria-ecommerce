@@ -11,8 +11,14 @@ main .categorias article{
 main .categorias article a{
     color: $negro;
     text-align: center;
-    margin: 2rem 0rem;
+    margin: 0rem 0rem 2rem;
     font-size: 1.2rem;
+    padding: 2rem;
+}
+main .categorias article a:hover{
+    background-color: $celeste;
+    border-radius: 0px 0px 17px;
+    
 }
 /* Estilos sobre nosotros */
 main .nosotros{
@@ -143,5 +149,21 @@ main .productos article div a{
     }
     main .contenedor-img-principal img{
         width: 100%;
+    }
+    /* Categorias */
+    main .categorias div{
+        width: 80%;
+        margin: auto;
+    }
+    /* sobre nosotros */
+    main .nosotros div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* Nuestros productos */
+    main .productos{
+        width: 70%;
+        margin: auto;
     }
 }
