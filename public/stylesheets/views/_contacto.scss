@@ -1,0 +1,70 @@
+@import '../utilities/variables';
+/* Estilos de contacto */
+.contacto .titulo-contacto{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0rem 0rem;
+}
+.contacto .formulario{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.contacto .formulario fieldset{
+    border: 1px solid $negro;
+    margin: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto .formulario fieldset legend{
+    background-color: $celeste;
+    width: 100%;
+    margin-bottom: 4rem;
+    color: $blanco;
+    font-weight: 900;
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+/* campos */
+.contacto .formulario fieldset .campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.contacto .formulario fieldset .mensaje {
+    display: flex;
+    flex-direction: column;
+}
+.contacto .formulario fieldset .interes {
+    display: flex;
+    flex-direction: column;
+}
+.contacto .formulario fieldset .campo label {
+    padding: 1rem;
+} 
+.contacto .formulario fieldset .campo input:not([type="radio"]),
+.contacto .formulario fieldset .campo textarea,
+.contacto .formulario fieldset .campo select  {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
+/* enviar */
+.contacto .formulario div{
+    display: flex;
+    justify-content: center;
+}
+.contacto .formulario div .btn{
+    background-color: $verde;
+    font-weight: 900;
+    color: $blanco;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+.contacto .formulario div .btn:hover {
+    background-color: #769c02;
+    cursor: pointer;
+}
